@@ -22,7 +22,10 @@ To complete this tutorial, you should have an IBM Cloud account, if you do not h
 - Search for **Kubernetes Service** and click on it
 
 
-- ![Parse Server1](https://user-images.githubusercontent.com/5286796/106688265-c4507e80-65f3-11eb-9dbd-288903ff044a.png)You are now at the Kubernetes deployment page. You need to specify some information about the cluster.
+![Parse Server1](https://user-images.githubusercontent.com/5286796/106688265-c4507e80-65f3-11eb-9dbd-288903ff044a.png)
+
+
+- You are now at the Kubernetes deployment page. You need to specify some information about the cluster.
 
 - Choose either of the following plans; **standard** or **free**. The free plan only have one worker node and no subnet. To provision a standard cluster. You will need to upgrade your account to Pay-As-You-Go
 
