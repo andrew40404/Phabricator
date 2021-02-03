@@ -27,7 +27,7 @@ To complete this tutorial, you should have an IBM Cloud account, if you do not h
 
 - You are now at the Kubernetes deployment page. You need to specify some information about the cluster.
 
-- Choose either of the following plans; **standard** or **free**. The free plan only have one worker node and no subnet. To provision a standard cluster. You will need to upgrade your account to Pay-As-You-Go
+- Choose either of the following plans; **standard** or **free**. The free plan only have one worker node and no subnet. For provision of a standard cluster. You will need to     upgrade your account to Pay-As-You-Go
 
 - To upgrade to a Pay-As-You-Go account, complete the following steps:
 
@@ -37,7 +37,7 @@ To complete this tutorial, you should have an IBM Cloud account, if you do not h
 
 - Enter your payment information, click Next, and submit your information
 
-- Choose **classic** or **VPC** , read the docs and choose the most suitable type for yourself
+- Choose **classic** or **VPC** , read the documents and choose the most suitable type for yourself
 
   
 
@@ -63,7 +63,7 @@ To complete this tutorial, you should have an IBM Cloud account, if you do not h
 - Choose **Master Service Endpoint**. 
 
   
-> In VRF-enabled accounts, you can choose private-only to make your master accessible on the private network or via VPN tunnel. Choose public-only to make your master publicly accessible. When you have a VRF-enabled account, your cluster is set up by default to use both private and public endpoints.
+> In VRF-enabled accounts, you can choose private-only to make your master accessible on the private network or via VPN tunnel.Choose public-only to make your master publicly     accessible. When you have a VRF-enabled account, your cluster is set up by default to use both private and public endpoints.
 
 - Give desired **tags** to your cluster, for more information visit tags
 - Click **create**
@@ -82,9 +82,9 @@ The Block Storage plug-in is a persistent, high-performance iSCSI storage that y
 - Give a **name** to this workspace
 - Click **install** and wait for the deployment
 
-**Step 3 Deploying Phabricator**
+**Step 3 Installing Phabricator**
 
-**Prerequisite**
+**Prerequisites**
 
 - Kubernetes 1.12+
 - Helm 2.11+ or Helm 3.0-beta3+
