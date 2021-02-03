@@ -13,7 +13,7 @@ To complete this tutorial, you should have an IBM Cloud account, if you do not h
 
 1. Provision the Kubernetes cluster, if you have already setup one, skip to step 2.
 2. Deploy the IBM Cloud Block-Storage Plugin to the created cluster, if you have already done this, skip to step 3.
-3. Deploy the ETCD.
+3. Deploy the Phabricator.
 
 **Step 1 - Provision Kubernetes Cluster**
 
