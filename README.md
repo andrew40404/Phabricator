@@ -1,13 +1,15 @@
+# Installing Phabricator on IBM Cloud
+
 This document will describe how to install Phabricator on IBM Cloud using Kubernetes services.
 
-### **Contents**
+**Contents**
 
 1. Introduction
 2. Provision Kubernetes Cluster
 3. Deploy IBM Cloud Block-Storage Plugin
 4. Deploy Phabricator
 
-### **Introduction**
+**Introduction**
 
 To complete this tutorial, you should have an IBM Cloud account, if you do not have one, please [register/signup here](https://cloud.ibm.com/registration). For installing Phabricator, we have used the Kubernetes cluster, and used the IBM Cloud Block-Storage plugin for our persistent volume. Upon the completion of this tutorial, you would have the Phabricator up and running on the Kubernetes cluster.
 
@@ -43,13 +45,9 @@ To complete this tutorial, you should have an IBM Cloud account, if you do not h
 
   ![Parse Server2](https://user-images.githubusercontent.com/5286796/106688262-c3b7e800-65f3-11eb-8b31-8a3bf0e7e387.png)
 
-  
-
 - Now choose your location settings,
 
 - Choose **Geography** (continent)
-
-  
 
 ![Parse Server3](https://user-images.githubusercontent.com/5286796/106688258-c1ee2480-65f3-11eb-9196-112a069239c0.png)Choose Single or Multizone. 
 
@@ -98,8 +96,6 @@ To install the chart with the release name my-release:
 ```sh
 $ helm install my-release bitnami/phabricator
 ```
-
-
 
 The command deploys Phabricator on the Kubernetes cluster in the default configuration. The [Parameters](https://hub.kubeapps.com/#parameters) section lists the parameters that can be configured during installation.
 
