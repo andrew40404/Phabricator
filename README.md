@@ -55,7 +55,7 @@ To complete this tutorial, you should have an IBM Cloud account, if you do not h
 - Wait for your cluster to be provisioned
 - Your cluster is ready for usage
 
-## Step 2 Deploy IBM Cloud Block Storage plug-in
+## Step 2 - Deploy IBM Cloud Block Storage plug-in
 
 The Block Storage plug-in is a persistent, high-performance iSCSI storage that you can add to your apps by using Kubernetes Persistent Volumes (PVs).
 
@@ -67,7 +67,7 @@ The Block Storage plug-in is a persistent, high-performance iSCSI storage that y
 - Give a **name** to this workspace
 - Click **install** and wait for the deployment
 
-## Step 3 Installing Phabricator
+## Step 3 - Installing Phabricator
 
 ### Prerequisites
 
