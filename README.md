@@ -86,12 +86,6 @@ $ helm install my-release bitnami/phabricator
 
 The command deploys Phabricator on the Kubernetes cluster in the default configuration. The [Parameters](https://hub.kubeapps.com/#parameters) section lists the parameters that can be configured during installation.
 
-### To reserve a public IP address on GKE:
-
-```sh
-$ gcloud compute addresses create phabricator-public-ip
-```
-
 The reserved IP address can be associated to the Phabricator service by specifying it as the value of the phabricatorLoadBalancerIP parameter while installing the chart.
 
 Specify each parameter using the --set key=value[,key=value] argument to helm install. For example,
