@@ -91,7 +91,7 @@ The reserved IP address can be associated to the Phabricator service by specifyi
 Specify each parameter using the --set key=value[,key=value] argument to helm install. For example,
 
 ```sh
-$ helm install my-release \--set phabricatorUsername=admin,phabricatorPassword=password,mariadb.mariadbRootPassword=secretpassword \bitnami/phabricator
+$ helm install my-release --set phabricatorUsername=admin,phabricatorPassword=password,mariadb.mariadbRootPassword=secretpassword \bitnami/phabricator
 ```
 
 The above command sets the Phabricator administrator account username and password to admin and password respectively. Additionally, it sets the MariaDB root user password to secretpassword.
